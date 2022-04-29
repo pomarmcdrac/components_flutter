@@ -1,5 +1,6 @@
-import 'package:fl_components/screens/listview1_screen.dart';
 import 'package:flutter/material.dart';
+
+//import 'package:fl_components/screens/screens.dart';
 
 class HomeScreen extends StatelessWidget {
    
@@ -9,8 +10,9 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text('Componentes en Flutter'),
-        elevation: 1,
+        elevation: 0,
       ),
       body: ListView.separated(
         itemBuilder: (context, index) => ListTile(
@@ -24,7 +26,7 @@ class HomeScreen extends StatelessWidget {
 
             // Navigator.push(context, route);
 
-            Navigator.pushNamed(context, 'card');
+            Navigator.pushNamed(context, 'alert');
 
           },
         ), 
