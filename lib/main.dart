@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         'listview1' : ( BuildContext context ) => const Listview1Screen(),
         'listview2' : ( BuildContext context ) => const Listview2Screen(),
         'card'      : ( BuildContext context ) => const CardScreen(),
-        'alerd'     : ( BuildContext context ) => const AlertScreen(),
+        'alert'     : ( BuildContext context ) => const AlertScreen(),
       },
     );
   }
