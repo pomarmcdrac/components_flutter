@@ -44,6 +44,10 @@ class AppTheme {
         borderSide: BorderSide( color: primary),
         borderRadius: BorderRadius.only( bottomLeft: Radius.circular(10), topRight: Radius.circular(10))
       ),
+      border: OutlineInputBorder(
+        borderRadius: BorderRadius.only( bottomLeft: Radius.circular(10), topRight: Radius.circular(10))
+      )
+
 
     )
 
