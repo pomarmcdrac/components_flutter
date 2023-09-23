@@ -19,8 +19,6 @@ class Listview2Screen extends StatelessWidget {
               title: Text( options[i] ),
               trailing: const Icon( Icons.keyboard_double_arrow_right_outlined,),
               onTap: (){
-                final game = options[i];
-                print(game);
               },
         ),
         separatorBuilder: ( _ , __ ) => const Divider(),

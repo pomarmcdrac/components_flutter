@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:fl_components/models/models.dart';
 import 'package:fl_components/router/app_routes.dart';
 import 'package:fl_components/theme/app_theme.dart';
 
